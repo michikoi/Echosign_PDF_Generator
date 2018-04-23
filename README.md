@@ -7,4 +7,3 @@
  * 4. get a pdf form content with the doc_key from echosign API.  **need to add a pdf folder and a pdf template form in this project.
  * 5. create a new pdf file with the content from echosign API and save it locally.
  * 6. put all pdf files into a zip file.
-# Echosign_PDF_Generator
