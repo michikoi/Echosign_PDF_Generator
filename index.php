@@ -20,9 +20,9 @@ require_once dirname(__FILE__) .'/Classes/PHPExcel/Autoloader.php';
 $_echosign_api_url = (string)'https://secure.echosign.com/services/EchoSignDocumentServicexxxx?wsdl';
 $_echosign_api_key = (string)"echosign_key";
 
-//read the spreadsheet and get all homeowners email addresses
+//read the spreadsheet and get all users email addresses
 $fileName = "getFiletest.xls";
-//get all homeowners names from the spread sheet.
+//get all users names from the spread sheet.
 //automatically detect the correct reader to load for this file type
 $excelReader = PHPExcel_IOFactory::createReaderForFile($fileName);
 
